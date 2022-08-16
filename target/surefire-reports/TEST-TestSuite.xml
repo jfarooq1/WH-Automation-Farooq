@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="87.744" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="webdriver.chrome.driver" value="/Users/jahanzaibfarooq/.cache/selenium/chromedriver/mac64/104.0.5112.79/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq/target/test-classes:/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq/target/classes:/Users/jahanzaibfarooq/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jahanzaibfarooq/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jahanzaibfarooq/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jahanzaibfarooq/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jahanzaibfarooq/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jahanzaibfarooq/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/jahanzaibfarooq/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/jahanzaibfarooq/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/jahanzaibfarooq/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jahanzaibfarooq/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jahanzaibfarooq/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/jahanzaibfarooq/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/jahanzaibfarooq/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.3/webdrivermanager-5.2.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/jahanzaibfarooq/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/jahanzaibfarooq/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/jahanzaibfarooq/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/jahanzaibfarooq/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/jahanzaibfarooq/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq/target/surefire/surefirebooter-20220816191514167_3.jar /Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq/target/surefire 2022-08-16T19-15-13_845-jvmRun1 surefire-20220816191514167_1tmp surefire_0-20220816191514167_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq/target/test-classes:/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq/target/classes:/Users/jahanzaibfarooq/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jahanzaibfarooq/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jahanzaibfarooq/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jahanzaibfarooq/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jahanzaibfarooq/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jahanzaibfarooq/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jahanzaibfarooq/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/jahanzaibfarooq/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/jahanzaibfarooq/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/jahanzaibfarooq/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/jahanzaibfarooq/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jahanzaibfarooq/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jahanzaibfarooq/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/jahanzaibfarooq/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/jahanzaibfarooq/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.3/webdrivermanager-5.2.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/jahanzaibfarooq/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/jahanzaibfarooq/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/jahanzaibfarooq/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/jahanzaibfarooq/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/jahanzaibfarooq/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/jahanzaibfarooq/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/jahanzaibfarooq/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/jahanzaibfarooq/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jahanzaibfarooq"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq/target/surefire/surefirebooter-20220816191514167_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2+0"/>
+    <property name="user.name" value="jahanzaibfarooq"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jahanzaibfarooq/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/hv/j7s2ygc526v98fkbkl99jk0h0000gp/T/"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="/Users/jahanzaibfarooq/eclipse-workspace/WalletHub-Automation-Farooq"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jahanzaibfarooq/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.2+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="postFacebookStatus" classname="com.uiautomation.FacebookStatusTest" time="33.144">
+    <system-out><![CDATA[19:15:28.557 [main] DEBUG com.uiautomation.FacebookStatusTest - Waiting for Facebook...
+19:15:35.614 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Username.
+19:15:35.737 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Password.
+19:15:35.808 [main] DEBUG com.uiautomation.FacebookStatusTest - Click Sign-in.
+19:15:50.478 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Status Message.
+19:15:52.231 [main] DEBUG com.uiautomation.FacebookStatusTest - Posting Status.
+19:15:52.354 [main] INFO  com.uiautomation.FacebookStatusTest - Status Posted
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 2480
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 16, 2022 7:15:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="postReview" classname="com.uiautomation.WalletHubReviewTest" time="43.578">
+    <system-out><![CDATA[19:15:56.053 [main] DEBUG com.uiautomation.WalletHubReviewTest - Waiting for WalletHub.com...
+19:16:10.151 [main] DEBUG com.uiautomation.WalletHubReviewTest - Entering Email.
+19:16:10.365 [main] DEBUG com.uiautomation.WalletHubReviewTest - Entering Password.
+19:16:10.450 [main] DEBUG com.uiautomation.WalletHubReviewTest - Signing-in.
+19:16:19.556 [main] INFO  com.uiautomation.WalletHubReviewTest - https://wallethub.com/profile/68895366i
+19:16:24.018 [main] DEBUG com.uiautomation.WalletHubReviewTest - Navigating to Test Insurance Company Profile.
+19:16:24.020 [main] DEBUG com.uiautomation.WalletHubReviewTest - Switch to Reviews Tab.
+19:16:24.116 [main] DEBUG com.uiautomation.WalletHubReviewTest - Clicking 4 Star Reviews.
+19:16:25.378 [main] INFO  com.uiautomation.WalletHubReviewTest - 4 Star Review Selected.
+19:16:25.584 [main] DEBUG com.uiautomation.WalletHubReviewTest - Seleting Health Insurance.
+19:16:25.734 [main] DEBUG com.uiautomation.WalletHubReviewTest - Entering Review.
+19:16:27.132 [main] DEBUG com.uiautomation.WalletHubReviewTest - Submitting Review.
+19:16:32.241 [main] DEBUG com.uiautomation.WalletHubReviewTest - Validating Review Response Success Message.
+19:16:32.242 [main] INFO  com.uiautomation.WalletHubReviewTest - Review Submitted.
+19:16:32.245 [main] DEBUG com.uiautomation.WalletHubReviewTest - Click Continue.
+19:16:33.030 [main] DEBUG com.uiautomation.WalletHubReviewTest - Navigating to Profile.
+Test Insurance Company
+19:16:35.818 [main] INFO  com.uiautomation.WalletHubReviewTest - Company Present:Test Insurance Company
+19:16:35.856 [main] INFO  com.uiautomation.WalletHubReviewTest - 1 star rating is selected
+19:16:35.878 [main] INFO  com.uiautomation.WalletHubReviewTest - 2 star rating is selected
+19:16:35.902 [main] INFO  com.uiautomation.WalletHubReviewTest - 3 star rating is selected
+19:16:35.925 [main] INFO  com.uiautomation.WalletHubReviewTest - 4 star rating is selected
+19:16:35.948 [main] INFO  com.uiautomation.WalletHubReviewTest - PASS: Four Stars are selected
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 34397
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 16, 2022 7:15:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

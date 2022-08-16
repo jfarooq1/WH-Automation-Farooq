@@ -1,0 +1,6 @@
+pageObjects/WalletHubUserProfile.class
+pageObjects/WalletHubCompanyProfile.class
+pageObjects/WalletHubLoginPage.class
+pageObjects/LoginPage.class
+pageObjects/HomePage.class
+resources/Base.class

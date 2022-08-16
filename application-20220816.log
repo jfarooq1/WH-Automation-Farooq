@@ -1,0 +1,37 @@
+2022-08-16 18:59:20.896 [main] DEBUG com.uiautomation.FacebookStatusTest - Waiting for Facebook...
+2022-08-16 18:59:22.258 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Username.
+2022-08-16 18:59:22.383 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Password.
+2022-08-16 18:59:22.463 [main] DEBUG com.uiautomation.FacebookStatusTest - Click Sign-in.
+2022-08-16 18:59:29.482 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Status Message.
+2022-08-16 18:59:30.066 [main] DEBUG com.uiautomation.FacebookStatusTest - Posting Status.
+2022-08-16 18:59:30.180 [main] INFO  com.uiautomation.FacebookStatusTest - Status Posted
+2022-08-16 18:59:33.848 [main] DEBUG com.uiautomation.WalletHubReviewTest - Waiting for WalletHub.com...
+2022-08-16 19:15:28.557 [main] DEBUG com.uiautomation.FacebookStatusTest - Waiting for Facebook...
+2022-08-16 19:15:35.614 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Username.
+2022-08-16 19:15:35.737 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Password.
+2022-08-16 19:15:35.808 [main] DEBUG com.uiautomation.FacebookStatusTest - Click Sign-in.
+2022-08-16 19:15:50.478 [main] DEBUG com.uiautomation.FacebookStatusTest - Entering Status Message.
+2022-08-16 19:15:52.231 [main] DEBUG com.uiautomation.FacebookStatusTest - Posting Status.
+2022-08-16 19:15:52.354 [main] INFO  com.uiautomation.FacebookStatusTest - Status Posted
+2022-08-16 19:15:56.053 [main] DEBUG com.uiautomation.WalletHubReviewTest - Waiting for WalletHub.com...
+2022-08-16 19:16:10.151 [main] DEBUG com.uiautomation.WalletHubReviewTest - Entering Email.
+2022-08-16 19:16:10.365 [main] DEBUG com.uiautomation.WalletHubReviewTest - Entering Password.
+2022-08-16 19:16:10.450 [main] DEBUG com.uiautomation.WalletHubReviewTest - Signing-in.
+2022-08-16 19:16:19.556 [main] INFO  com.uiautomation.WalletHubReviewTest - https://wallethub.com/profile/68895366i
+2022-08-16 19:16:24.018 [main] DEBUG com.uiautomation.WalletHubReviewTest - Navigating to Test Insurance Company Profile.
+2022-08-16 19:16:24.020 [main] DEBUG com.uiautomation.WalletHubReviewTest - Switch to Reviews Tab.
+2022-08-16 19:16:24.116 [main] DEBUG com.uiautomation.WalletHubReviewTest - Clicking 4 Star Reviews.
+2022-08-16 19:16:25.378 [main] INFO  com.uiautomation.WalletHubReviewTest - 4 Star Review Selected.
+2022-08-16 19:16:25.584 [main] DEBUG com.uiautomation.WalletHubReviewTest - Seleting Health Insurance.
+2022-08-16 19:16:25.734 [main] DEBUG com.uiautomation.WalletHubReviewTest - Entering Review.
+2022-08-16 19:16:27.132 [main] DEBUG com.uiautomation.WalletHubReviewTest - Submitting Review.
+2022-08-16 19:16:32.241 [main] DEBUG com.uiautomation.WalletHubReviewTest - Validating Review Response Success Message.
+2022-08-16 19:16:32.242 [main] INFO  com.uiautomation.WalletHubReviewTest - Review Submitted.
+2022-08-16 19:16:32.245 [main] DEBUG com.uiautomation.WalletHubReviewTest - Click Continue.
+2022-08-16 19:16:33.030 [main] DEBUG com.uiautomation.WalletHubReviewTest - Navigating to Profile.
+2022-08-16 19:16:35.818 [main] INFO  com.uiautomation.WalletHubReviewTest - Company Present:Test Insurance Company
+2022-08-16 19:16:35.856 [main] INFO  com.uiautomation.WalletHubReviewTest - 1 star rating is selected
+2022-08-16 19:16:35.878 [main] INFO  com.uiautomation.WalletHubReviewTest - 2 star rating is selected
+2022-08-16 19:16:35.902 [main] INFO  com.uiautomation.WalletHubReviewTest - 3 star rating is selected
+2022-08-16 19:16:35.925 [main] INFO  com.uiautomation.WalletHubReviewTest - 4 star rating is selected
+2022-08-16 19:16:35.948 [main] INFO  com.uiautomation.WalletHubReviewTest - PASS: Four Stars are selected
