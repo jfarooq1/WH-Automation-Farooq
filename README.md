@@ -8,3 +8,5 @@
 Reports:
 TestNG reports can be viewed in the test-output folder.
 ExtentReports and screenshots can also be addeed but due to shortage of time i could not implement that.
+
+In case of issue please reach out to me!
