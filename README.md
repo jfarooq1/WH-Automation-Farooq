@@ -1,4 +1,4 @@
-# WH-Automation
+# WH-Automation with Selenium and Java with Page Object Model
 
 1. Clone/Download the repositry.
 2. Update Facebook Email/Password, WalletHub Email/Password in the src/main/java/resources/parameters.properties.
